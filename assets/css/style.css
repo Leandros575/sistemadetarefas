@@ -1,8 +1,8 @@
-body {
-    background-color: #fff;
-    border: 5px;
+.container {
+
 }
 
 h1 {
     display: inline;
+    border: 2px;
   }
