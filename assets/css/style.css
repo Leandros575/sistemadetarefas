@@ -18,48 +18,10 @@ header h2{
   font-weight :400;
 }
 
-.section h1{
-  z-index: 2;
- 
-  width: 50%;
-  height: 100px;
-  }
+div h1 {
+margin: 188px;
+}
 
-.left {
-  position: relative;
-  float: left;
-  margin-top: 50px;
-  width: 15%;
-  height: 400px;
- 
-  margin-bottom: 10px;
-  }
-
-  .right {
-    position: relative;
-    float: right;
-    margin-top: 50px;
-    width: 88%;
-    height: 100px;
-    margin-bottom: 10px;
-    
-    }
-
-    #footer {
-      position: relative;
-      height: 50px;
-      clear: both;
-      font-family: Verdana, sans-serif;
-      font-size: 20px;
-      text-align: center;
-      color: #ffffff;
-    }
-
-    .right p{
-    float: right;
-    }
-
-    div h1{
-    float: right ;
-    height: auto 50px;
-      }
+i{
+margin: 50px;
+}
