@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
-*{
-  font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -9,28 +9,66 @@
   margin: auto;
 }
 
-header{
+header {
   border-bottom: 2px solid #000000;
 }
-header h2{
+
+header h2 {
   font-size: 48px;
   margin: 0;
-  font-weight :400;
+  font-weight: 400;
 }
 
-div h1 {
-margin: 188px;
+#sistema {
+  display: flex;
 }
 
-i{
-margin: 50px;
-
+#sistema div.sidebar {
+  width: 477px;
+  height: 639px;
 }
 
-.icon1 {
-  fle
+#sistema div.sidebar div.linha {
+  display: flex;
 }
 
-.icon2 {
-  color: #000000;
+#sistema div.sidebar div.linha div.coluna1 {
+  width: 238px;
+}
+
+#sistema div.sidebar div.linha div.coluna2 {
+  width: 238px;
+}
+
+#sistema div.sidebar div.linha2 {
+  display: flex;
+}
+
+#sistema div.sidebar div.linha2 div.coluna1 {
+  width: 238px;
+}
+
+#sistema div.sidebar div.linha2 div.coluna2 {
+  width: 238px;
+}
+
+#sistema div.fluxo {
+  width: 714px;
+  height: 633px;
+}
+
+#sistema div.fluxo div.linha1 {
+  display: flex;
+}
+
+#sistema div.fluxo div.linha1 div.coluna1 {
+  width: 554px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#sistema div.fluxo div.linha1 div.coluna2 {
+  width: 160px;
+  display: flex;
+  justify-content: space-around;
 }
